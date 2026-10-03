@@ -50,4 +50,5 @@ y_pred = pipeline.predict(X_test)
 # Evaluación
 rmse = root_mean_squared_error(y_test, y_pred)
 
+print("Te voy a mostrar el RMSE del modelo de regresión lineal que predice la propina")
 print(f"RMSE: {rmse:.4f}")
